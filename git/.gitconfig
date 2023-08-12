@@ -1,0 +1,14 @@
+[user]
+    email = xxx@onesyx.com
+    name = onesyx
+[alias]
+    ba = branch -a
+    br = branch
+    ca = commit -a
+    cm = commit
+    co = checkout
+    df = diff
+    lg = log --decorate --all --oneline --graph
+    pl = !git pull origin $(git rev-parse --abbrev-ref HEAD)
+    ps = !git push origin $(git rev-parse --abbrev-ref HEAD)
+    st = status

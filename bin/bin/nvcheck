@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+stylua -v .
+luacheck after/ lua/ init.lua --globals vim packer_plugins

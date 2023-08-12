@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+seq 1 "$(tput cols)" | sort -R | sparklines | lolcat
+echo -ne "\n"

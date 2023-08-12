@@ -1,0 +1,90 @@
+# TERM variable
+env:
+    TERM: xterm-256color
+
+window:
+    # Window padding
+    padding:
+        x: 5
+        y: 5
+
+    # Spread additional padding evenly around the terminal content
+    dynamic_padding: true
+
+    # Window decorations
+    decorations: none
+
+    # Background opacity
+    opacity: 0.95
+
+    # Startup Mode
+    startup_mode: Maximized
+
+# Font configuration
+font:
+    # Normal font face
+    normal:
+        family: Iosevka
+
+    # Bold font face
+    bold:
+        family: Iosevka
+
+    # Italic font face
+    italic:
+        family: Iosevka
+
+    # Bold italic font face
+    bold_italic:
+        family: Iosevka
+
+    # Point size
+    size: 21.0
+
+# Bold text is drawn using the bright color variants
+draw_bold_text_with_bright_colors: true
+
+# Colors (Tokyo Night)
+colors:
+    # Default colors
+    primary:
+        background: "0x222436"
+        foreground: "0xc8d3f5"
+
+    # Normal colors
+    normal:
+        black: "0x1b1d2b"
+        red: "0xff757f"
+        green: "0xc3e88d"
+        yellow: "0xffc777"
+        blue: "0x82aaff"
+        magenta: "0xc099ff"
+        cyan: "0x86e1fc"
+        white: "0x828bb8"
+
+    # Bright colors
+    bright:
+        black: "0x444a73"
+        red: "0xff757f"
+        green: "0xc3e88d"
+        yellow: "0xffc777"
+        blue: "0x82aaff"
+        magenta: "0xc099ff"
+        cyan: "0x86e1fc"
+        white: "0xc8d3f5"
+
+    # Indexed Colors
+    indexed_colors:
+        - { index: 16, color: "0xff966c" }
+        - { index: 17, color: "0xc53b53" }
+
+    # Transparent cell backgrounds
+    transparent_background_colors: true
+
+# Selected text will be copied to the primary clipboard
+selection:
+    save_to_clipboard: true
+
+# The cursor is temporarily hidden when typing
+mouse:
+    hide_when_typing: true
