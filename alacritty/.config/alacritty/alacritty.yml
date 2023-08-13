@@ -18,7 +18,7 @@ window:
     opacity: 0.95
 
     # Startup Mode
-    startup_mode: Maximized
+    startup_mode: Fullscreen
 
 # Font configuration
 font:
